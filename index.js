@@ -27,7 +27,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: ["http://localhost:3000","http://localhost:5173" , "http://localhost:9000"],
+  origin: ["http://localhost:3000","https://vibgyorevent123.netlify.app" , "http://localhost:9000"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 }));
